@@ -1,0 +1,19 @@
+
+  .root{
+    margin-top:30px !important;
+    left: 0px;
+    right:-92px;
+    width:300px !important;
+    box-sizing:border-box;
+  }    
+@media only screen and (max-width: 788px){
+
+.root{
+    margin-top:30px;
+    left: 0px;
+    right:-92px;
+    width:60vw !important;
+    box-sizing:border-box;
+
+    
+      }}

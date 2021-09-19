@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.drag_area {
+  background: #ffffff;
+  border: 3px dashed #c4c4c4;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="file"] {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+  opacity: 0;
+	font: inherit;
+	cursor: pointer;
+  height: 100%;
+  width: 100%;
+	outline: inherit;}
+
+.hello {
+  z-index: 10;
+}
+
+.twomain {
+  margin-top: 5%;
+  width: 100%;
+}
+.selectdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.uploadbutton {
+  width: 267px;
+  height: 36px;
+  background: #506b8e;
+  border-radius: 5px;
+  z-index: 5;
+}
+.tablehead {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.017em;
+
+  color: #555555;
+}
+
+.uploadbox {
+  padding: 5%;
+  width: 30%;
+  height: 80%;
+  background: #eff5fa;
+  border-radius: 14px;
+}
+
+.heading {
+  padding-left: 9%;
+  color: #3f51b5;
+  font-size: 25px;
+}
+
+.extractbtn {
+  background-color: #f96332 !important;
+  color: #fff8f6 !important;
+  font: Roboto;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-left: 75% !important;
+  margin-top: 2% !important;
+}
+.uploadbtn {
+  width: 100% !important ;
+  height: 36px;
+  background: #506b8e;
+  border-radius: 5px;
+  background-color: #506b8e !important;
+  color: #fff8f6 !important;
+  font: Roboto;
+  font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 788px) {
+  .onemain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .extract {
+    background-color: #f96332 !important;
+    height: 55px;
+    color: #fff8f6 !important;
+    font: Roboto;
+    font-weight: 500;
+    border-radius: 10px;
+  }
+  .selectbtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .uploadbox {
+    width: 90%;
+    background: #eff5fa;
+    border-radius: 14px;
+  }
+  .uploadbtn {
+    width: 100% !important ;
+    height: 36px;
+    background: #506b8e;
+    border-radius: 5px;
+    background-color: #506b8e !important;
+    color: #fff8f6 !important;
+    font: Roboto;
+    font-weight: 500 !important;
+  }
+  .extractbtn {
+    background-color: #f96332 !important;
+    height: 55px;
+    color: #fff8f6 !important;
+    font: Roboto;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 0% !important;
+    margin-top: 2% !important;
+  }
+  .selectdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100% !important;
+  }
+  .auto1main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0% !important;
+  }
+}
+.svg{
+  padding: 20%;
+  background-image: url("./img.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -50%;
+  width: 100%;
+  height: 100%;
+}

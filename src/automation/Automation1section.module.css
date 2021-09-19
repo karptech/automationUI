@@ -1,0 +1,153 @@
+.auto1main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.onemain {
+
+  display: flex;
+  background-color: #ffffff;
+  padding: 2%;
+  width: 96%;
+  justify-content: space-between;
+  border-top: 2px solid #e4e7eb;
+  border-radius: 0px 0px 15px 15px;
+}
+
+
+
+
+.twomain {
+  margin-top: 5%;
+  width: 100%;
+}
+.selectdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.uploadbutton {
+  width: 267px;
+  height: 36px;
+  background: #506b8e;
+  border-radius: 5px;
+}
+
+.uploadtext {
+  width: 152px;
+  height: 19px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tablehead {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: -0.017em;
+
+  color: #555555;
+}
+
+.MuiTableHead-root {
+  background-color: #555555 !important;
+}
+.uploadbox {
+  padding: 5%;
+  width: 506px;
+  height: 300px;
+  background: #eff5fa;
+  border-radius: 14px;
+}
+
+.heading {
+  padding-left: 9%;
+  color: #3f51b5;
+  font-size: 25px;
+}
+
+
+.extractbtn{
+  background-color: #F96332 !important;
+  height: 55px;
+  color:#FFF8F6 !important;
+  font: Roboto;
+  font-weight: 500;
+  border-radius:10px;
+  margin-left:75% !important;
+  border-radius: 8px !important;
+  margin-top: 2% !important;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 788px){
+  .onemain{
+    display: flex;
+    flex-direction: column;
+  }
+  .extract{
+    background-color:#F96332 !important;
+    height:55px;
+    color: #FFF8F6 !important;
+    font:Roboto;
+    font-weight:500;
+    border-radius: 10px;
+}
+.selectbtn{
+  display: flex;
+  flex-direction: column;
+}
+.uploadbox {
+  padding: 5%;
+  width: 100% !important;
+  height: 40% !important;
+  background: #eff5fa;
+  border-radius: 14px;
+}
+.extractbtn{
+  background-color: #F96332 !important;
+  height: 55px;
+  color:#FFF8F6 !important;
+  font: Roboto;
+  font-weight: 500;
+  border-radius:10px;
+  margin: 0% !important;
+  margin-top: 2% !important;
+}
+.selectdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100% !important;
+}
+.auto1main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+}
